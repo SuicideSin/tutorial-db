@@ -173,7 +173,6 @@ header .header {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 960px;
 } 
 
 header .header nav#menu {
@@ -227,7 +226,6 @@ header .header .tint {
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%;
     z-index: 0;
 } 
 
@@ -253,7 +251,6 @@ header .header .tint {
 .fluid section #page .container > .content {
     margin-left: auto;
     margin-right: auto;
-    width: 960px;
 } 
 
 header .header.mockup {
@@ -290,7 +287,6 @@ header .header.mockup #mockup_slider:before {
     height: 180px;
     position: absolute;
     text-indent: -9999px;
-    width: 100%;
 } 
 
 header .header.mockup #mockup_slider #cover {
@@ -299,7 +295,6 @@ header .header.mockup #mockup_slider #cover {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 700px;
     z-index: 3;
 } 
 
@@ -457,7 +452,6 @@ header .header.layered {
 header .header.layered .responsive-container {
     margin-left: auto;
     margin-right: auto;
-    width: 960px;
 } 
 
 header .header.layered .slider-wrapper {
@@ -512,7 +506,6 @@ header .header.fixed #menu_cover {
     padding: 10px 10px 14px 10px;
     position: fixed !important;
     top: 0;
-    width: 940px;
     z-index: 99999;
 } 
 
@@ -585,7 +578,6 @@ section #page {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .2);
     margin-left: auto;
     margin-right: auto;
-    width: 960px;
 } 
 
 section .container {
@@ -606,7 +598,6 @@ section .container .slogan {
     padding-bottom: 20px;
     padding-top: 0px;
     text-align: center;
-    width: 660px;
 } 
 
 section .container .right {    float: right } 
@@ -617,7 +608,6 @@ section .container h1 {
     color: #526471;
     font-size: 26px;
     font-weight: 800;
-    height: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
@@ -841,10 +831,20 @@ section .download li+li:after {
     width: 20px;
 } 
 
+
+section .features {
+    margin-right: auto;
+    margin-left: auto;
+    width:100%;
+    text-align:center;
+    display:block;
+}
+
+
 section .features li {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
 } 
 
 section .features li:last-child {    margin-right: 0px } 
